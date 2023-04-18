@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 class Greeting extends Component {
 
-    [/* componentes de tipo clase*/]
     constructor(props){
         super(props);
         this.state = {

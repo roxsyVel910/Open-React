@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './componets/pure/greeting';
+
+import GreetingF from './componets/pure/GreetingF';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Greeting name = "Martin"/>
+       <GreetingF name = "Martin"/>
       </header>
     </div>
   );
