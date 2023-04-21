@@ -4,6 +4,7 @@ import "./App.css";
 import GreetingF from "./componets/pure/GreetingF";
 import TaskListComponent from "./componets/container/task_list";
 import Ejemplo1 from "./hooks/Ejemplo1";
+import Ejemplo2 from "./hooks/ejemplo2";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
          <GreetingF name="Jose"></GreetingF> 
         Componente de Listado de Tareas */}
         {/*<TaskListComponent></TaskListComponent>*/}
-        <Ejemplo1/>
+        <Ejemplo2/>
       </header>
     </div>
   );
